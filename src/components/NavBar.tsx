@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-md rounded-b-lg transition-all duration-300">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-md  transition-all duration-300">
       <div className="container px-6 flex justify-between items-center h-16">
         <NavLink to='/'><h1 className="font-bold text-2xl tracking-wide">Travel Co.</h1></NavLink>
 
@@ -63,7 +63,7 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="flex md:hidden flex-col items-center space-y-4 py-4 bg-white/95 shadow-inner rounded-b-lg animate-fadeIn">
+        <div className="flex md:hidden flex-col items-center space-y-4 py-4 bg-white/95 shadow-inner  animate-fadeIn">
           <NavLink
             to="/"
             className={({ isActive }) =>
