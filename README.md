@@ -38,4 +38,13 @@ Travel Coo helps users explore destinations, plan trips, and experience seamless
 1. **Clone the repository**
    ```bash
    git clone https://github.com/dharshan47/travel-co.git
-   cd travel-co
+
+# 2️⃣ Navigate into the project folder
+cd VirtualR
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm run dev
+
